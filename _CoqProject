@@ -1,0 +1,18 @@
+-Q Structures CKB 
+-Q Systems CKB 
+-Q Properties CKB 
+
+-arg -w -arg -notation-overridden
+-arg -w -arg -local-declaration
+-arg -w -arg -redundant-canonical-projection
+-arg -w -arg -projection-no-head-constant
+
+Structures/Types.v
+Structures/Parameters.v
+Structures/Forest.v
+Structures/Setfs.v
+Systems/Messages.v
+Systems/States.v
+Systems/Network.v
+Properties/ConsensusHelper.v
+Properties/Consensus.v

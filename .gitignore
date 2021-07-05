@@ -1,3 +1,9 @@
+CoqMakefile.conf
+Makefile.coq
+*.v~
+*.bak
+*.vos
+*.vok
 .*.aux
 *.a
 *.cma
