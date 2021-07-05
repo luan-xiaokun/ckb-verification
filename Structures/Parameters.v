@@ -84,5 +84,4 @@ Axiom VAF_init : VAF GenesisBlock.
 Axiom FCR_nrefl : forall bc, ~ bc >b bc.
 Axiom FCR_trans : forall bc1 bc2 bc3, bc1 >b bc2 -> bc2 >b bc3 -> bc1 >b bc3.
 Axiom FCR_rel : forall bc1 bc2, bc1 >b bc2 \/ bc1 = bc2 \/ bc2 >b bc1.
-(* Axiom FCR_subchain : forall bc1 bc2, subchain bc1 bc2 -> bc2 >=b bc1. *)
 Axiom FCR_ext : forall bc b ext, bc ++ (b :: ext) >b bc.

@@ -2,7 +2,7 @@ From mathcomp Require Import all_ssreflect.
 
 From mathcomp Require Import finmap finset finfun fintype.
 
-From CKB Require Import Types Parameters Chains Forest Setfs Messages States.
+From CKB Require Import Types Parameters Forest Setfs Messages States.
 
 Set Implicit Arguments.
 Unset Strict Implicit.

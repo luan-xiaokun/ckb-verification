@@ -2,7 +2,7 @@ From mathcomp.ssreflect Require Import all_ssreflect.
 
 From mathcomp.finmap Require Import finmap.
 
-From CKB Require Import Types Parameters Chains Forest Messages.
+From CKB Require Import Types Parameters Forest Messages.
 
 Set Implicit Arguments.
 Unset Strict Implicit.
@@ -18,11 +18,6 @@ Record UState :=
       peers : seq UserId;
       btree : BlockTree;
       txpool : TxPool;
-(*      missingpool : {fmap UserId -> seq HashValue}; (* hashes of missing transactions *)
-      waiting : bool;          (* indicate if the node is waiting for response *)
-      clock : Time;            (* reset after requesting *)
-      deadline : Time;         (* black list the sender if it does not send valid transactions back before ddl *)
-      retry : nat;             (* 0: not waiting; 1: first request; 2: second request *) *)
     }.
 
 (* register UState as canonical structures *)

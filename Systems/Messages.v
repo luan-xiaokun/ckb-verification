@@ -2,7 +2,7 @@ From mathcomp.ssreflect Require Import all_ssreflect.
 
 From mathcomp.finmap Require Import finmap.
 
-From CKB Require Import Types Parameters Chains Forest.
+From CKB Require Import Types Parameters Forest.
 
 Set Implicit Arguments.
 Unset Strict Implicit.
